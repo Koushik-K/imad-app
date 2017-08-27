@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-1', function (req, res) {
-    res.send('Article 1 requested & will be served here');
+    res.send('https://www.google.co.in/search?source=hp&q=ram+rahim&oq=ram+r&gs_l=psy-ab.3.0.0i131k1l4.56.675.0.2772.5.5.0.0.0.0.463.463.4-1.1.0....0...1.1.64.psy-ab..4.1.461.98HM6drqkDE');
 });
 
 app.get('/article-2', function (req, res) {
